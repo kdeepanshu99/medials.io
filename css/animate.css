@@ -1,16 +1,28 @@
 @charset "UTF-8";
 
+body{
+  overflow-x: hidden;
+
+}
+.home-image {
+  filter: blur(5px);
+}
 /*!
 Animate.css - http://daneden.me/animate
 Licensed under the MIT license - http://opensource.org/licenses/MIT
 
 Copyright (c) 2015 Daniel Eden
 */
+.foot{
+  margin-top: 50px;
+  margin-bottom: -230px;
+  /* margin-top: -120px; */
+}
 .tem{
 
   /* font-size: large; */
   /* font-weight: 1200; */
-  font-style: oblique;
+  /* font-style: oblique; */
   color: #eee;
 }
 .team{
